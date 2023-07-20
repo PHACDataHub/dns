@@ -49,6 +49,6 @@ In the above template, fill out the values for placeholders(`<>`):
 - `<zone-reference-name>`: This should be one of the three sub-domains we have. That is, one of `phac-aspc-alpha-canada-ca`, `phac-alpha-canada-ca` or `aspc-alpha-canada-ca`.
 - `<name-server1>...<name-server-N>`: Paste the noted NS values from the previous step here.
 
-After the PR is reviewed and merged, the config connector will provisioning / link the resources.
+After the PR is reviewed and merged, the config connector will provision / link the resources.
 
 Once done, you can add other types of DNS record sets to your zone with the registered DNS name.
