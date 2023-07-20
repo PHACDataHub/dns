@@ -1,6 +1,6 @@
 # PHAC Alpha DNS
 
-This repo contains config files for PHAC DNS services. It is built on top of [CDS's dns repo](https://github.com/cds-snc/dns) but with an Infrastructure as Data approach.
+This repo contains config files for PHAC DNS services. It is built on top of [CDS's dns repo](https://github.com/cds-snc/dns) but with an IaD (Infrastructure as Data) approach.
 
 Currently, we have three sub-domains on top of the CDS's _alpha.canada.ca_ domain:
 
@@ -46,9 +46,9 @@ In the above template, fill out the values for placeholders(`<>`):
 - `<zone-name>`: Name of the resource, could be same as the Zone name that you've created.
 - `<DNS-name>`: The DNS name from the previously created resource in your project. Don't forget the `.` at the end.
 - `<your-desired-value>`: Value to set for ttl (Time to Live). A good default for this is 300 but feel free to modify it. Units are in seconds.
-- `<zone-reference-name>`: This should be one of
+- `<zone-reference-name>`: This should be one of the three sub-domains we have. That is, one of `phac-aspc-alpha-canada-ca`, `phac-alpha-canada-ca` or `aspc-alpha-canada-ca`.
 - `<name-server1>...<name-server-N>`: Paste the noted NS values from the previous step here.
 
 After the PR is reviewed and merged, the config connector will provisioning / link the resources.
 
-Once done, you can add other types of DNS record sets to your project with the registered DNS name.
+Once done, you can add other types of DNS record sets to your zone with the registered DNS name.
