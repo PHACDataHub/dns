@@ -1,10 +1,10 @@
 apiVersion: dns.cnrm.cloud.google.com/v1beta1
 kind: DNSRecordSet
 metadata:
-  name: hellodjango-phac-aspc-alpha-canada-ca-ns
+  name: dc-cd-phac-aspc-alpha-canada-ca-ns
   namespace: alpha-dns
 spec:
-  name: "hellodjango.phac-aspc.alpha.canada.ca."
+  name: "dc-cd.phac-aspc.alpha.canada.ca."
   type: "NS"
   ttl: 300
   managedZoneRef:
@@ -14,3 +14,4 @@ spec:
     - "ns-cloud-e2.googledomains.com."
     - "ns-cloud-e3.googledomains.com."
     - "ns-cloud-e4.googledomains.com."
+    
