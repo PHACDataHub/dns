@@ -28,6 +28,8 @@ kind: DNSRecordSet
 metadata:
   name: <zone-name>
   namespace: alpha-dns
+  labels:
+    codeRepo: <GitHub-repository>
 spec:
   name: "<DNS-name>"
   type: "NS"
