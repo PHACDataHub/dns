@@ -30,7 +30,9 @@ metadata:
   namespace: alpha-dns
   labels:
     ownerName: John Doe
-    ownerContact: John.Doe@google.com 
+    ownerContact: John.Doe@google.com
+    # If there isn't an associated GitHub repository, please comment out the next line 
+    gitHubRepo: <GitHub-repository>
 spec:
   name: "<DNS-name>"
   type: "NS"
