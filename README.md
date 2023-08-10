@@ -29,7 +29,8 @@ metadata:
   name: <zone-name>
   namespace: alpha-dns
   labels:
-    codeRepo: <GitHub-repository>
+    ownerName: John Doe
+    ownerContact: John.Doe@google.com 
 spec:
   name: "<DNS-name>"
   type: "NS"
