@@ -28,6 +28,11 @@ kind: DNSRecordSet
 metadata:
   name: <zone-name>
   namespace: alpha-dns
+  labels:
+    ownerName: <Your Name>
+    ownerContact: <Your.Email@example.com>
+    # If there isn't an associated GitHub repository, please comment out the next line 
+    gitHubRepo: <GitHub-repository>
 spec:
   name: "<DNS-name>"
   type: "NS"
