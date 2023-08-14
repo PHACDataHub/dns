@@ -3,21 +3,22 @@ apiVersion: dns.cnrm.cloud.google.com/v1beta1
 kind: DNSManagedZone
 metadata:
   name: ops-phac-alpha-canada-ca-zone
+  namespace: alpha-dns 
 spec:
-  dnsName: ops.phac.alpha.canada.ca.
-  description: Managed Zone for ops.phac.alpha.canada.ca
-  visibility: public
-  dnssec:
-    state: on
+  description: "Managed Zone for ops.phac.alpha.canada.ca"
+  dnsName: "ops.phac.alpha.canada.ca."
+  visibility: "public"
+  dnssecConfig:
+    state: "on"
     defaultKeySpecs:
-    - algorithm: rsasha256
-      keyLength: 2048
-      keyType: keySigning
-      kind: dns#managedZoneDnsSecConfigDefaultKeySpecs
-    - algorithm: rsasha256
-      keyLength: 1024
-      keyType: zoneSigning
-      kind: dns#managedZoneDnsSecConfigDefaultKeySpecs
+      - algorithm: "rsasha256"
+        keyLength: 2048
+        keyType: "keySigning"
+        kind: "dns#managedZoneDnsSecConfigDefaultKeySpecs"
+      - algorithm: "rsasha256"
+        keyLength: 1024
+        keyType: "zoneSigning"
+        kind: "dns#managedZoneDnsSecConfigDefaultKeySpecs"
 ---
 apiVersion: dns.cnrm.cloud.google.com/v1beta1
 kind: DNSRecordSet
