@@ -6,13 +6,13 @@ metadata:
   labels:
     ownerName: "Eric Malenfant"
     ownerContact: "eric.richard-malenfant@phac.aspc.gc.ca"
-    gitHubRepo: "JIT-IaC"
+    gitHubRepo: "https://github.com/PHACDataHub/JIT-IaC"
 spec:
   name: "jitaccess.ops.phac.alpha.canada.ca."
   type: "NS"
   ttl: 300
   managedZoneRef:
-    external: phac-alpha-canada-ca
+    external: ops-phac-alpha-canada-ca-zone
   rrdatas:
     - "ns-cloud-a1.googledomains.com."
     - "ns-cloud-a2.googledomains.com."
