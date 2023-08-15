@@ -56,4 +56,4 @@ In the above template, fill out the values for placeholders(`<>`):
 
 After the PR is reviewed and merged, the config connector will provision / link the resources.
 
-Once done, you can add other types of DNS record sets to your zone with the registered DNS name.
+Once done, you can add other types of DNS record sets to your zone with the registered DNS name.sdfgsdfgsdfgsdfg
