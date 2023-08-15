@@ -9,8 +9,4 @@ spec:
   ttl: 300
   managedZoneRef:
     external: phac-alpha-canada-ca
-  rrdatas:
-    - ns-cloud-a1.googledomains.com.
-    - ns-cloud-a2.googledomains.com.
-    - ns-cloud-a3.googledomains.com.
-    - ns-cloud-a4.googledomains.com.
+
