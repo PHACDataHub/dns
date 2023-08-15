@@ -3,10 +3,6 @@ kind: DNSRecordSet
 metadata:
   name: jitaccess-ops-phac-alpha-canada-ca-ns
   namespace: alpha-dns
-  labels:
-    ownerName: "Eric Malenfant"
-    ownerContact: "eric.richard-malenfant@phac.aspc.gc.ca"
-    gitHubRepo: "https://github.com/PHACDataHub/JIT-IaC"
 spec:
   name: "jitaccess.ops.phac.alpha.canada.ca."
   type: "NS"
