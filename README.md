@@ -29,7 +29,7 @@ metadata:
   name: <zone-name>
   namespace: alpha-dns
   labels:
-    ownerName: <Your Name>
+    ownerName: Your_Name
 spec:
   name: "<DNS-name>"
   type: "NS"
