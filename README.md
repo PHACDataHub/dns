@@ -29,10 +29,16 @@ metadata:
   name: <zone-name>
   namespace: alpha-dns
   annotations:
-    ownerName: <Your Name>
-    ownerContact: <Your.Email@example.com>
-    # If there isn't an associated GitHub repository, please comment out the next line 
-    gitHubRepo: <GitHub-repository>
+    projectName: <your-project-name>
+    projectOwnerDivisionAcronym: <eg-DSCO-or-DS>
+  # The following items are optional - please comment out or remove lines that are not applicable 
+    gitHubRepository: <https://github.com/PHACDataHub/<repository-name>>
+    nonGitHubCodeRepository: <eg-azure-devops-repo>
+  # Include one line for each service, e.g. API, UI...
+    serviceURLs:
+      - <service-url>
+    containerRegistries:
+      - <eg-GCP-artifact-registry-or-docker-hub>
 spec:
   name: "<DNS-name>"
   type: "NS"
