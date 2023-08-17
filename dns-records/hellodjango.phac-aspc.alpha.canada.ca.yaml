@@ -5,15 +5,15 @@ metadata:
   namespace: alpha-dns
   annotations:
     projectName: "Hello Django"
-    projectOwnerDivisonAcrynom: "DSCO"
-    # If there isn't an associated GitHub repository, please comment out the next line 
-    gitHubRepo: https://github.com/PHACDataHub/cloudrun-deployment-example
-    serviceEndpoints:
-      - "https://hello-world-vlfae7w5dq-nn.a.run.app"
+    projectOwnerDivisionAcronym: "DSCO"
+    # The following items are optional - please comment out or remove lines that are not applicable 
+    gitHubRepository: https://github.com/PHACDataHub/cloudrun-deployment-example
+    # nonGitHubCodeRepository: <azure-devops-repo-etc>
+    serviceURLs:
+    # Include one line for each service, e.g. API, UI...
       - "https://hello-world-from-cloud-build-trigger-vlfae7w5dq-nn.a.run.app"
     containerRegistries:
       - "northamerica-northeast1-docker.pkg.dev/phx-01h1yptgmche7jcy01wzzpw2rf/hello-world-app"
-      - "northamerica-northeast1-docker.pkg.dev/phx-01h1yptgmche7jcy01wzzpw2rf/hello-world-app/hello-world-two"
 spec:
   name: "hellodjango.phac-aspc.alpha.canada.ca."
   type: "NS"
