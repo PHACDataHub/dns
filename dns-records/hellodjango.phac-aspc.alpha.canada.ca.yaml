@@ -6,12 +6,8 @@ metadata:
   annotations:
     projectName: "Hello Django"
     projectOwnerDivisionAcronym: "DSCO"
-    # The following items are optional - please comment out or remove lines that are not applicable 
-    gitHubRepository: https://github.com/PHACDataHub/cloudrun-deployment-example
-    # nonGitHubCodeRepository: <azure-devops-repo-etc>
-    serviceURLs:
-    # Include one line for each service, e.g. API, UI...
-      - "https://hello-world-from-cloud-build-trigger-vlfae7w5dq-nn.a.run.app"
+    gitHubRepository: "https://github.com/PHACDataHub/cloudrun-deployment-example"
+    serviceURLs: "https://hello-world-from-cloud-build-trigger-vlfae7w5dq-nn.a.run.app"
     containerRegistries:
       - "northamerica-northeast1-docker.pkg.dev/phx-01h1yptgmche7jcy01wzzpw2rf/hello-world-app"
 spec:
