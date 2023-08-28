@@ -4,7 +4,7 @@ metadata:
   name: wastewater-phac-alpha-canada-ca-ns
   namespace: alpha-dns
 spec:
-  name: "wastewater-riskmodeling.phac-aspc.alpha.canada.ca."
+  name: "wastewater-riskmodeling.phac.alpha.canada.ca."
   type: "NS"
   ttl: 300
   managedZoneRef:
