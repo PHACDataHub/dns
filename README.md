@@ -10,6 +10,10 @@ Currently, we have three sub-domains on top of the CDS's _alpha.canada.ca_ domai
 
 > Note: See https://github.com/cds-snc/dns/blob/main/terraform/phac-aspc.alpha.canada.ca.tf for reference.
 
+## Alpha DNS product page
+
+https://github.com/PHACDataHub/Wiki/wiki/PHAC-Alpha-DNS-Offering
+
 ## Request a DNS
 
 To request a DNS, you'll need to [create a Managed Zone](https://cloud.google.com/dns/docs/zones#create_managed_zones) resource in your GCP project.
