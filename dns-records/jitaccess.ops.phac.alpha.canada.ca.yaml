@@ -3,6 +3,9 @@ kind: DNSRecordSet
 metadata:
   name: jitaccess-ops-phac-alpha-canada-ca-ns
   namespace: alpha-dns
+  annotations:
+    projectName: "JIT Access"
+    gitHubRepository: "JIT-IaC"
 spec:
   name: "jitaccess.ops.phac.alpha.canada.ca."
   type: "NS"
