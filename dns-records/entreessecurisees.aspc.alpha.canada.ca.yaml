@@ -3,6 +3,9 @@ kind: DNSRecordSet
 metadata:
   name: entreessecurisees-aspc-alpha-canada-ca-ns
   namespace: alpha-dns
+  annotations:
+    projectName: "Safe Inputs"
+    gitHubRepository: "safe-inputs"
 spec:
   name: "entreessecurisees.aspc.alpha.canada.ca."
   type: "NS"
