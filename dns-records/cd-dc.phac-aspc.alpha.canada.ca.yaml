@@ -3,6 +3,9 @@ kind: DNSRecordSet
 metadata:
   name: cd-dc-phac-aspc-alpha-canada-ca-ns
   namespace: alpha-dns
+  annotations:
+    projectName: "Data Catalog"
+    gitHubRepository: "data-catalog"
 spec:
   name: "cd-dc.phac-aspc.alpha.canada.ca."
   type: "NS"
