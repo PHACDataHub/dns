@@ -33,16 +33,15 @@ metadata:
   name: <zone-name>
   namespace: alpha-dns
   annotations:
-    projectName: <your-project-name>
-    projectOwnerDivisionAcronym: <eg-DSCO-or-DS>
+    projectName: "<your-project-name>"
   # The following items are optional - please comment out or remove lines that are not applicable 
-    gitHubRepository: <https://github.com/PHACDataHub/<repository-name>>
+    gitHubRepository: <repository-name>
     nonGitHubCodeRepository: <eg-azure-devops-repo>
   # Include one line for each service, e.g. API, UI...
     serviceURLs:
       - <service-url>
     containerRegistries:
-      - <eg-GCP-artifact-registry-or-docker-hub>
+      - <container-registry>
 spec:
   name: "<DNS-name>"
   type: "NS"
@@ -59,6 +58,10 @@ spec:
 In the above template, fill out the values for placeholders(`<>`):
 
 - `<zone-name>`: Name of the resource, could be same as the Zone name that you've created.
+- `<project-name>`: Project name - spaces allowed (e.g. "PHAC Alpha DNS")
+- `<gitHubRepository>`: (e.g. "dns")
+- `<service-url>`: *Optional.* Add one for each service url, i.e. API, UI
+- `<container-registry>`: *Optional.* Add one for each container registry, e.g, GCP Artifact Registry or Docker Hub.
 - `<DNS-name>`: The DNS name from the previously created resource in your project. Don't forget the `.` at the end.
 - `<your-desired-value>`: Value to set for ttl (Time to Live). A good default for this is 300 but feel free to modify it. Units are in seconds.
 - `<zone-reference-name>`: This should be one of the three sub-domains we have. That is, one of `phac-aspc-alpha-canada-ca`, `phac-alpha-canada-ca` or `aspc-alpha-canada-ca`.
