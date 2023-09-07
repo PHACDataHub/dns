@@ -6,7 +6,7 @@ metadata:
   annotations:
     projectName: "Hello Django"
     sourceCodeRepository: "https://github.com/PHACDataHub/cloudrun-deployment-example"
-    serviceUrls: "https://hello-world-from-cloud-build-trigger-vlfae7w5dq-nn.a.run.app"
+    serviceEndpointUrls: "https://hello-world-from-cloud-build-trigger-vlfae7w5dq-nn.a.run.app"
     containerRegistries: "northamerica-northeast1-docker.pkg.dev/phx-01h1yptgmche7jcy01wzzpw2rf/hello-world-app"
 spec:
   name: "hellodjango.phac-aspc.alpha.canada.ca."
