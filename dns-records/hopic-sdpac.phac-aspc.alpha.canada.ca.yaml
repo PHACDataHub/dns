@@ -3,6 +3,9 @@ kind: DNSRecordSet
 metadata:
   name: "hopic-sdpac-phac-aspc-alpha-canada-ca-ns"
   namespace: "alpha-dns"
+  annotations:
+    projectName: "HoPiC"
+    sourceCodeRepository: "https://github.com/PHACDataHub/cpho-phase2"
 spec:
   name: "hopic-sdpac.phac-aspc.alpha.canada.ca."
   type: "NS"
