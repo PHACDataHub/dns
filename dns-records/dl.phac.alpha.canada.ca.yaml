@@ -3,6 +3,9 @@ kind: DNSRecordSet
 metadata:
   name: dl-phac-alpha-canada-ca-ns
   namespace: alpha-dns
+  annotations:
+    projectName: "Epicenter"
+    sourceCodeRepository: "https://github.com/PHACDataHub/phac-epi-garden"
 spec:
   name: "dl.phac.alpha.canada.ca."
   type: "NS"

@@ -3,6 +3,9 @@ kind: DNSRecordSet
 metadata:
   name: safeinputs-phac-alpha-canada-ca-ns
   namespace: alpha-dns
+  annotations:
+    projectName: "Safe Inputs"
+    sourceCodeRepository: "https://github.com/PHACDataHub/safe-inputs"
 spec:
   name: "safeinputs.phac.alpha.canada.ca."
   type: "NS"
