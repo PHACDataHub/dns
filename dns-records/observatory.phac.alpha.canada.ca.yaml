@@ -1,0 +1,19 @@
+apiVersion: dns.cnrm.cloud.google.com/v1beta1
+kind: DNSRecordSet
+metadata:
+  name: observatory-phac-alpha-canada-ca-ns
+  namespace: alpha-dns
+  annotations:
+    projectName: "Observatory Demo"
+    sourceCodeRepository: "https://github.com/PHACDataHub/ruok-service-autochecker"
+spec:
+  name: "observatory.phac.alpha.canada.ca."
+  type: "NS"
+  ttl: 300
+  managedZoneRef:
+    external: phac-alpha-canada-ca
+  rrdatas:
+    - ns-cloud-b1.googledomains.com.
+    - ns-cloud-b2.googledomains.com.
+    - ns-cloud-b3.googledomains.com.
+    - ns-cloud-b4.googledomains.com.
