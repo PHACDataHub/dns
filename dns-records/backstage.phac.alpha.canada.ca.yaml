@@ -4,8 +4,8 @@ metadata:
   name: backstage-phac-alpha-canada-ca-ns
   namespace: alpha-dns
   annotations:
-    projectName: "Backstage Demo"
-    sourceCodeRepository: "https://github.com/vedant-org/weaveworks-backstage"
+    projectName: "Backstage"
+    sourceCodeRepository: "https://github.com/PHACDataHub/infra-core"
 spec:
   name: "backstage.phac.alpha.canada.ca."
   type: "NS"
@@ -13,8 +13,7 @@ spec:
   managedZoneRef:
     external: phac-alpha-canada-ca
   rrdatas:
-    - ns-cloud-b1.googledomains.com.
-    - ns-cloud-b2.googledomains.com.
-    - ns-cloud-b3.googledomains.com.
-    - ns-cloud-b4.googledomains.com.
-
+    - ns-cloud-c1.googledomains.com.
+    - ns-cloud-c2.googledomains.com.
+    - ns-cloud-c3.googledomains.com.
+    - ns-cloud-c4.googledomains.com.
