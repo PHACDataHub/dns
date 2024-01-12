@@ -1,12 +1,12 @@
 apiVersion: dns.cnrm.cloud.google.com/v1beta1
 kind: DNSRecordSet
 metadata:
-  name: rshiny-phac-alpha-canada-ca-ns
+  name: rshiny-iap-demo-phac-alpha-canada-ca-ns
   namespace: alpha-dns
   annotations:
     projectName: "RShiny Demo"
 spec:
-  name: "rshiny.phac.alpha.canada.ca."
+  name: "rshiny-iap-demo.phac.alpha.canada.ca."
   type: "NS"
   ttl: 300
   managedZoneRef:
