@@ -7,13 +7,14 @@ metadata:
     projectName: "HoPiC"
     sourceCodeRepository: "https://github.com/PHACDataHub/cpho-phase2"
 spec:
-  name: "hopic-sdpac.noble.phac-aspc.alpha.canada.ca."
+  name: "hopic-sdpac-noble.phac-aspc.alpha.canada.ca."
   type: "NS"
   ttl: 300
   managedZoneRef:
     external: "phac-aspc-alpha-canada-ca"
   rrdatas:
-    - "ns-cloud-e1.googledomains.com."
-    - "ns-cloud-e2.googledomains.com."
-    - "ns-cloud-e3.googledomains.com."
-    - "ns-cloud-e4.googledomains.com."
+    - "ns-cloud-b1.googledomains.com."
+    - "ns-cloud-b2.googledomains.com."
+    - "ns-cloud-b3.googledomains.com."
+    - "ns-cloud-b4.googledomains.com."
+
