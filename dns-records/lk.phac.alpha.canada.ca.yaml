@@ -8,7 +8,7 @@ spec:
   type: "NS"
   ttl: 300
   managedZoneRef:
-    external: phac-aspc-alpha-canada-ca
+    external: phac-alpha-canada-ca
   rrdatas:
     - "ns-cloud-a1.googledomains.com."
     - "ns-cloud-a2.googledomains.com."
